@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Chatbot from "./component/AskBot";
+import ProductAgent from "./component/ProductAgent";
+// import product_data from "./services/data.json";
+
+// process.env.GOOGLE_APPLICATION_CREDENTIALS = "./google-client.json";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Chatbot />
     </div>
   );
 }

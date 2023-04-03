@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Kids wear",
+    "category_id": 1,
+    "products": [
+      {
+        "id": 1,
+        "title": "Best baby suit",
+        "thumb_url": "https://abc.com",
+        "link": "https://abc.om",
+        "color": "Red",
+        "size": "Medium"
+      },
+      {
+        "id": 2,
+        "title": "Cute toddler dress",
+        "thumb_url": "https://def.com",
+        "link": "https://def.com",
+        "color": "Green",
+        "size": "Medium"
+      },
+      {
+        "id": 3,
+        "title": "Stylish kids jacket",
+        "thumb_url": "https://ghi.com",
+        "link": "https://ghi.com",
+        "color": "White",
+        "size": "Medium"
+      }
+    ]
+  }
+]
